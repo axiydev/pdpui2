@@ -132,7 +132,13 @@ class _HomePageState extends State<HomePage>{
               ],
             ),
           ),
-          child:Row(),
+          child:Row(
+            mainAxisAlignment:MainAxisAlignment.end,
+            crossAxisAlignment:CrossAxisAlignment.end,
+            children:[
+             Icon(Icons.star_border,size:35,color:Colors.yellowAccent),
+            ],
+          ),
         ),
       ),
     );
